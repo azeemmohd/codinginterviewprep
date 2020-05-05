@@ -146,7 +146,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+  }
   }
 
   .akku {
@@ -155,8 +155,42 @@
     align-self: center;
   }
 
-  #now {
-    -webkit-text-size-adjust: none;
+  /*------------------------------------*\
+	$IPHONE
+\*------------------------------------*/
+  @media screen and (max-device-width: 480px) {
+    body {
+      -webkit-text-size-adjust: none;
+    }
+
+    .spellbound {
+      font-family: 'Ruthie', cursive;
+      font-size: 1em;
+      align-self: flex-end;
+      margin-left: 0.5em;
+      font-weight: bolder;
+    }
+
+    .subtext {
+      font-family: 'Redressed', cursive;
+      margin-left: 3em;
+      font-size: 5em;
+      color: goldenrod;
+      align-self: flex-end;
+
+    }
+
+
+    .touch {
+      font-family: 'Fredericka the Great', cursive;
+      font-size: 1em;
+      font-weight: bold;
+    }
+
+    .typespan {
+      font-family: 'Fredericka the Great', cursive;
+      font-size: 0.5em;
+    }
   }
 </style>
 </head>
